@@ -1,8 +1,26 @@
-# React + Vite
+# Venue Location | React & TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-   🌟 React + Tailwind + EmailJs
+-   🎃 Responsive Design
 
-Currently, two official plugins are available:
+# Run Locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Setup .env file
+
+```js
+VITE_SERVICE_ID = your_emailjs_service_Id;
+VITE_TEMPLATE_ID = your_emailjs_template_Id;
+VITE_PUBLIC_KEY = your_emailjs_Public_key;
+```
+
+### Install dependencies
+
+```shell
+npm install
+```
+
+### Start the app
+
+```shell
+npm run dev
+```
