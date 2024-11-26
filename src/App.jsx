@@ -1,27 +1,14 @@
 import Gmap from './components/Gmap.jsx';
 import './App.css'
 import Contact from './components/Contact.jsx';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Merge from './components/Merge.jsx';
 
 function App() {
-
-  const router = createBrowserRouter([
-    {
-      path:'/',
-      element: <Gmap/>
-    },
-    {
-      path:'/Contact',
-      element: <Contact/>
-    }
-  ])
  
 
   return (
     <div className="App">
-
-      <RouterProvider router = {router}/>
-
+      <Merge/>
     </div>
   )
 }
